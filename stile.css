@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .cabecalho {
-    background-color: #87C7F5;
-    color: white;
+    background-color: white;
+    color: rgb(20, 0, 134);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,4 +24,21 @@
     font-size: 24px;
 }
 
-background-image: linear-gradient(to right, white, #87C7F5);
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#ffffff,#87C7F5);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    }
+
+    .escola-div-conteudo{
+        width: 35%;
+    }
+    .escola-titulo{
+        padding: 24px 0;
+    }
